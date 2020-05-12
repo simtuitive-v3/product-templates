@@ -1,0 +1,23 @@
+Productivity Delta Caculation --
+Time/Resource/Day -- From Property File
+Productivity Percent -- User Input Or From Property File
+Workload Time -- Calculated using (Workload X Time Taken At Desk)
+True Staffing Required = WorkLoad / (Time/Resource/Day / Time Taken at Desk) = ROUND( 200/(480/8)) = 3
+
+Revised Time/Resource/Day = Time/Resource/day X Productivity Percent = 480 X 0.8 = 384
+Work Load Time = Workload X Time Taken At Desk Of Document Verficiation = 200 X 8 = 1600
+
+Productivity Delta = Workload Time / Revised Time/Resource/Day = 1600/384 - 3 = 1.6666666
+
+Utilization Delta = Similar Calculation = 1600/384 - 3 = 1.6666666
+
+Resource Required = True Staffing Required + ROUND (Productivity Delta) + ROUND (Utilization Delta) = 3 + 1 + 1 = 5
+
+Man Power Cost Monthly --->
+(Resource Required DV + FU + RSU + P + V) X cost_per_hour_per_resource X Work Hour Per Day X Working Days Per Month = 41 X 18 X 8 X 21 
+
+Revenue Total = WL X Revenue 6 Sigma = 50 X 200
+
+Man Power Cost Monthly % Of Revenue Terms = (Man Power Cost Monthly / Revenue Total ) X 100 = 59 %
+
+
